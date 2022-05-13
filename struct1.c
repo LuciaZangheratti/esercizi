@@ -12,8 +12,8 @@ int StampaMilan(calciatore_t calciatori[])
 {
     for (int i = 0; i < DIM, i++)
     {
-        printf(calciatori[i].squadra, "milan");
-        printf(calciatori[i].nome, "nome");
+        if(calciatori[i].squadra, "milan"< DIM)
+        printf("%s", calciatori[i].nome);
     }
 }
 
